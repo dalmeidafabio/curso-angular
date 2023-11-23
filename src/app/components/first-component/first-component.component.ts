@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class FirstComponentComponent {
 
+  name: string = 'Matheus';
+  age: number = 30;
+  job: string = "Programador";
+  hobbies = ['Correr', 'Jogar', 'Estudar'];
+
+  constructor() {}
+
+  ngOnInit() {
+
+  }
+
 }
