@@ -11,6 +11,10 @@ export class FirstComponentComponent {
   age: number = 30;
   job: string = "Programador";
   hobbies = ['Correr', 'Jogar', 'Estudar'];
+  car = {
+    name: 'Polo',
+    year: 2019
+  }
 
   constructor() {}
 
